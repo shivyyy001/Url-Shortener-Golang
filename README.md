@@ -4,6 +4,8 @@
 This go project is build to show how a url-shortener works and what all is involved in making it. 
 Used GoLang, Redis for this project. 
 
+After importing this project in your local, run **docker-compose up -d** in your terminal in this project directory and then use below details to shorten your url's. 
+
 API : 
 localhost:3000/api/v1 (Post request)
 #### Sample input : {
