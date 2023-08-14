@@ -1,4 +1,6 @@
 # Url-Shortener-Golang
+#### Note : This URL shortener has a limit per ip address set to 10 successful requests per 30 minutes implemented in the code. 
+
 This go project is build to show how a url-shortener works and what all is involved in making it. 
 Used GoLang, Redis for this project. 
 
@@ -13,6 +15,3 @@ localhost:3000/api/v1 (Post request)
 In sample input, short and expiry are not mandatory. Short is the custom short url that you want. 
 
 Sample Output: 
-
-
-### This URL shortener has a limit per ip address set to 10 successful requests per 30 minutes. 
