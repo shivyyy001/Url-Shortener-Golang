@@ -4,11 +4,11 @@ Used GoLang, Redis for this project.
 
 API : 
 localhost:3000/api/v1 (Post request)
-Sample input : {
-    "url":"your_url",
-    "short":"abc",
-    "expiry": 48
-}
+#### Sample input : {
+   ####  "url":"your_url",
+  #### "short":"abc",
+#### "expiry": 48
+#### }
 
 In sample input, short and expiry are not mandatory. Short is the custom short url that you want. 
 
