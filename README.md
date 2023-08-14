@@ -11,7 +11,7 @@ localhost:3000/api/v1 (Post request)
 #### Sample input : {
    ####  "url":"your_url",
   #### "short":"abc",
-#### "expiry": 48
+#### "expiry": 48 (in hours)
 #### }
 
 In sample input, short and expiry are not mandatory. Short is the custom short url that you want. 
