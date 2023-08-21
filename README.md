@@ -16,4 +16,10 @@ localhost:3000/api/v1 (Post request)
 
 In sample input, short and expiry are not mandatory. Short is the custom short url that you want. 
 
-Sample Output: 
+#### Sample Output: {
+ ####   "url": "your_url",
+ ####   "short": "shortened_url",
+ ####   "expiry": 48,
+ ####   "rate_limit": 9,
+ ####   "rate_limit_reset": 30
+#### }
